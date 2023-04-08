@@ -1,0 +1,19 @@
+body {
+    background-color: grey;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+}
+ul {
+    color: white;
+}
+.img {
+    width: 100%;
+    text-align: center;
+}
+div {
+    color: white;
+    text-align: center;
+}
