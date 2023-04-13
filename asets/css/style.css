@@ -1,19 +1,13 @@
-body {
-    background-color: grey;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
-h1 {
-    color:white;
-    text-align: center;
-}
-ul {
-    color: white;
-}
-.img {
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
-    text-align: center;
-}
-div {
-    color: white;
-    text-align: center;
+    height: 100%;
 }
