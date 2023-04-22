@@ -40,20 +40,19 @@ a{
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
 }
-.w_btn {
+.w_btn{
     background: #0096d9;
     display: block;
     margin: 25px auto 45px;
 }
-.title {
-    font-family: Poppins, sans-serif;
+.title{
+    font-family: "Poppins", sans-serif;
     color: white;
     font-size: 34px;
     text-align: center;
     margin-top: 80px;
-    display: block;
 }
-.desc {
+.desc{
     font-family: 'Lato', sans-serif;
     color: white;
     font-size: 18px;
@@ -61,35 +60,36 @@ a{
     margin-top: 15px;
     display: block;
 }
-.w_block img {
-    width: 850px;
+.w_block img{
+    width: 650px;
     display: block;
     margin: 0 auto;
 }
-.sponsors {
+.sponsors{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
-    opacity: .7;
+    margin-top: 35px;
 }
-.sponsors img {
+.sponsors img{
     width: 162px;
+    opacity: .7;
+    transition: opacity .1s linear;
 }
 .sponsors img:hover{
     opacity: 1;
 }
-.title_block {
-    font-family: Poppins,  sans-serif;
-    font-size: 32px;
-    text-align: center;
-}
-.features {
+.features{
     margin-top: 50px;
     position: relative;
 }
-.title_block:before {
-    content: '';
+.title_block{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    text-align: center;
+}
+.title_block:before{
+    content: "";
     width: 150px;
     height: 5px;
     background: linear-gradient(#fe8464, #fe6e9a);
@@ -99,36 +99,35 @@ a{
     top: -15px;
     transform: translateX(-50%);
 }
-
-.cart {
+.cart{
     width: 350px;
     padding: 25px;
     color: black;
     display: block;
-    box-shadow: 0 0 5px 0px #00000059;
+    box-shadow: 0 0 5px 0 #00000059;
     border-radius: 12px;
-    border: 2px solid white;
+    border: 2px solid #fff;
 }
-.cart_img {
+.cart_img{
     position: relative;
     margin: 0 auto;
     display: block;
     width: max-content;
 }
-.img_bg {
+.img_bg{
     position: absolute;
-    left: 16px;
+    left: -16px;
 }
-.img_face {
-    position: absolute;
+.img_face{
+    position: relative;
     top: 18px;
 }
-.cart h2 {
+.cart h2{
     margin-top: 120px;
     text-align: center;
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 26px;
 }
-.cart:hover .img_bg {
+.cart:hover .img_bg{
     transform: rotate(25deg);
 }
