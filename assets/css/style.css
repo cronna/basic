@@ -74,7 +74,7 @@ a{
 .sponsors img{
     width: 162px;
     opacity: .7;
-    transition: opacity .2s linear;
+    transition: opacity .3s linear;
 }
 .sponsors img:hover{
     opacity: 1;
@@ -107,7 +107,7 @@ a{
     box-shadow: 0 0 5px 0 #00000059;
     border-radius: 12px;
     border: 2px solid #fff;
-    transition: all .2s linear;
+    transition: all .3s linear;
 }
 .cart_img{
     position: relative;
@@ -118,14 +118,14 @@ a{
 .img_bg{
     position: absolute;
     left: -16px;
-    transition: all .2s linear;
+    transition: all .3s linear;
 }
 .img_face{
     position: relative;
     top: 18px;
 }
 .cart h2{
-    margin-top: 90px;
+    margin-top: 100px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-size: 26px;
@@ -133,10 +133,10 @@ a{
 .cart:hover .img_bg{
     transform: rotate(25deg);
 }
-.cart:hover {
-    border: 2px solid #fe8464
+.cart:hover{
+    border: 2px solid #fe8464;
 }
-.desc_cart {
+.desc_cart{
     color: #6A6972;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
@@ -147,57 +147,57 @@ a{
 .cart a{
     color: #2e2e2e;
     font-family: 'Lato', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     display: block;
     margin: 35px auto 0;
 }
-.carts {
+.carts{
     margin-top: 25px;
     display: flex;
     justify-content: space-between;
 }
 .about_block{
     display: grid;
-    grid-template-areas: 'text img';
+    grid-template-areas: "text img";
 }
-.about_text {
+.about_text{
     grid-area: text;
     width: 480px;
     position: relative;
 }
-.about_img {
+.about_img{
     grid-area: img;
     width: 540px;
 }
-.about {
+.about{
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-
+    gap: 45px;
 }
-.about_text .title_block {
+.about_text .title_block{
     text-align: left;
 }
 .about_text .title_block:before{
-    left: 14%;
+    left: 16%;
 }
-.about_block .desc_cart{
+.about_text .desc_cart{
     text-align: left;
     margin-bottom: 25px;
 }
-.about_block_active {
-    grid-template-areas: 'img text'
+.active{
+    grid-template-areas: "img text";
 }
-.why {
+.why{
     display: flex;
 }
-.why_img {
+.why_img{
     position: relative;
 }
-.dots {
-    position: relative;
+.dots{
+    position: absolute;
     z-index: -2;
 }
-.desctop {
+.desktop{
     width: 525px;
 }
