@@ -357,39 +357,71 @@ a{
     background: url('../img/team-3.png');
     background-size: cover;
 }
+
 .reviews {
     margin-top: 50px;
+}
+.reviews .title_block {
     position: relative;
 }
 .review_block {
     display: flex;
-    width: 100%;
     justify-content: space-between;
+    margin-top: 40px;
 }
-
 .review {
+    border: 3px solid #ffffff;
     width: 350px;
     height: 376px;
-    border: 2px solid #FE7A7B;
     border-radius: 15px;
+    transition: all .2s linear;
 }
 .review_header {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 20px;
-}
-.mark {
-    width: 36px;
-    height: 36px;
+    padding: 25px;
+    height: 64px;
 }
 .star {
-    width: 80px;
-    height: 16px;
+    display: flex;
+    width: 120px;
+    height: 24px;
+    margin-left: 110px;
+    margin-top: 15px;
 }
 .review .desc_cart {
+    padding-left: 30px;
+    padding-right: 30px;
     margin-top: 50px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
 }
 .review_user {
-    margin-top: 80px;
+    display: flex;
+    padding: 40px;
+}
+.img1 {
+    position: absolute;
+}
+.img2 {
+    position: relative;
+    padding-bottom: 20px;
+}
+.user_text {
+     margin-left: 110px;
+     margin-top: 20px;
+}
+.user_text h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+.user_text span {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+.review:hover {
+    border: 3px solid #FE7A7B;
+}
+.activ {
+    border: 3px solid #FE7A7B;
 }
