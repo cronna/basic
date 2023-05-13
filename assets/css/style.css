@@ -425,3 +425,134 @@ a{
 .activ {
     border: 3px solid #FE7A7B;
 }
+.blog{
+    margin-top: 50px;
+    position: relative;
+}
+.blog .title_block{
+    text-align: start;
+    margin-bottom: 25px;
+}
+.blog .title_block:before{
+    left: 6%;
+}
+.blogs{
+    display: flex;
+    justify-content: space-between;
+}
+.item_info{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.item{
+    width: 350px;
+}
+.info{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #4c4c4c;
+}
+.item .desc_cart{
+    font-size: 23px;
+    text-align: left;
+    color: #000;
+    font-weight: 800;
+}
+.item a{
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: #fe8464;
+    margin-top: 10px;
+}
+.item a:after{
+    content: ">";
+    margin-left: 5px;
+    font-size: 24px;
+}
+.subscribe{
+    display: flex;
+    justify-content: space-between;
+    margin: 55px 0;
+    background: #fff;
+    border-radius: 25px;
+    box-shadow: 0 0 25px #0000003F;
+    height: 259px;
+    padding: 40px 50px 90px;
+}
+.subscribe .title_block{
+    text-align: left;
+    font-size: 35px;
+    margin-top: 25px;
+}
+.text{
+    width: 420px;
+    height: 65px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    border: 2px solid #0000003F;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    outline: none;
+}
+.submit{
+    width: 118px;
+    height: 65px;
+    padding: 0 30px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    border: none;
+    background: linear-gradient(#fe8464, #fe6e9a);
+    color: white;
+    font-weight: bold;
+    margin-left: -7px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+form{
+    margin-top: 50px;
+}
+body{
+    position: relative;
+}
+.footer_bg{
+    position: absolute;
+    z-index: -5;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.footer_link svg{
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+    transition: fill .2s linear;
+}
+.footer_head{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.footer_info{
+    width: 27%;
+    color: #fff;
+}
+.footer_info img{
+    width: 160px;
+    margin-bottom: 25px;
+}
+.footer_info .desc_cart{
+    color: #fff;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.footer_link{
+    display: flex;
+    gap: 25px;
+}
+.footer_link svg:hover{
+    fill: #fe8464;
+    cursor: pointer;
+}
